@@ -21,7 +21,7 @@
       <div class="search-box">
         <input type="text" v-model="busca" placeholder="Pesquisar por espaços esportivos..." />
         <select v-model="cidade">
-          <option value="">Brasil</option>
+          <option value="">Cidade</option>
           <option v-for="uf in ufs" :key="uf">{{ uf }}</option>
         </select>
         <button type="submit"><svg><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
