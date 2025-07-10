@@ -50,8 +50,8 @@
 .nav-bar {
   position: fixed;
   width: 100%;
-  height: 8rem;
-  padding-inline: 10.4rem;
+  height: 4.8rem;
+  padding-inline: 4rem;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.2rem);
@@ -67,15 +67,15 @@
 
 .signin-signup {
   min-width: 29.6rem;
-  gap: 1.2rem;
+  gap: 0.6rem;
 }
 
 .signin-signup button {
-  height: 4.8rem;
-  padding-inline: 2.4rem;
+  height: 3rem;
+  padding-inline: 1rem;
   border-radius: 0.6rem;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.8rem;
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding-inline: 1.6rem;
+  padding-inline: 0.8rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #d9d9d9;
