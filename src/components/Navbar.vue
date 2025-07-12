@@ -49,47 +49,28 @@
 
 .nav-bar {
   position: fixed;
+  top: 0;
   width: 100%;
   height: 4.8rem;
-  padding-inline: 4rem;
+  padding: 0 2rem;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3.2rem);
+  background-color: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(1.6rem);
   z-index: 1000;
 }
 
 .nav-bar nav {
   width: 100%;
   height: 100%;
-  justify-content: space-between;
+  display: flex;
   align-items: center;
+  gap: 3rem; /* controla a distância entre logo, menus e botões */
 }
 
-.signin-signup {
-  min-width: 29.6rem;
-  gap: 0.6rem;
-}
-
-.signin-signup button {
-  height: 3rem;
-  padding-inline: 1rem;
-  border-radius: 0.6rem;
-  font-weight: 700;
-  font-size: 0.8rem;
-  cursor: pointer;
-}
-
-.btn-signup {
-  background-color: transparent;
-  border: 0.2rem solid #c5fd01;
+.nav-bar .logo {
+  font-size: 1.8rem;
+  font-weight: 800;
   color: #c5fd01;
-}
-
-.btn-signin {
-  min-width: 13rem;
-  background-color: #c5fd01;
-  color: #0a0a0a;
-  border: none;
 }
 
 .nav-links {
@@ -97,6 +78,7 @@
   align-items: center;
   list-style: none;
   gap: 1.6rem;
+  margin-right: 2.4rem;
 }
 
 .nav-links li {
@@ -128,9 +110,42 @@
   background: linear-gradient(180deg, rgba(197, 253, 1, 0) 0%, rgba(197, 253, 1, 0.25) 100%);
 }
 
-.nav-bar .logo {
-  font-size: 1.8rem;
-  font-weight: 800;
+.signin-signup {
+  gap: 0.6rem;
+}
+
+.signin-signup button {
+  height: 2.4rem;
+  padding: 0 1.2rem;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-signup {
+  background-color: transparent;
+  border: 1px solid #c5fd01;
   color: #c5fd01;
+}
+
+.btn-signin {
+  height: 1.8rem !important;
+  padding: 0 0.8rem !important;
+  border-radius: 0.4rem !important;
+  background-color: #C5FD01 !important;
+  color: #0A0A0A !important;
+  border: none !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 </style>
