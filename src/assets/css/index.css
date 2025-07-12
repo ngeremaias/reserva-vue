@@ -14,7 +14,7 @@ body {
 
 .center {
     position: absolute;
-    top: 14rem;
+    top: 9rem;
     left: 50%;
     transform: translateX(-50%);
     flex-direction: column;
@@ -196,14 +196,18 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
   width: 100vw;
   height: 100vh;
   z-index: -1;
+  overflow: hidden;
 }
 
 .fractal div[class^="fr-"] {
-  flex: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20.05%;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -248,3 +252,9 @@ body {
         linear-gradient(180deg, rgba(197,253,1,0) 0%, rgba(197,253,1,.5) 100%),
         url("../img/fr-5.png");
 }
+
+.fr-1 { left: 0%; }
+.fr-2 { left: 20%; }
+.fr-3 { left: 40%; }
+.fr-4 { left: 60%; }
+.fr-5 { left: 80%; }

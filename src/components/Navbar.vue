@@ -135,17 +135,18 @@
 }
 
 .btn-signin {
-  height: 1.8rem !important;
-  padding: 0 0.8rem !important;
-  border-radius: 0.4rem !important;
+  height: 1.0rem !important;       /* mais fino */
+  padding: 0 2.4rem !important;    /* mais largo para os lados */
   background-color: #C5FD01 !important;
   color: #0A0A0A !important;
   border: none !important;
-  font-size: 0.7rem !important;
+  border-radius: 0.4rem !important;
+  font-size: 0.75rem !important;
   font-weight: 600 !important;
   line-height: 1 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  margin-top: 0.6rem !important;
 }
 </style>

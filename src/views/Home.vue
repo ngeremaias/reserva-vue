@@ -1,11 +1,5 @@
 <template>
-  <div class="fractal">
-  <div class="fr-1"></div>
-  <div class="fr-2"></div>
-  <div class="fr-3"></div>
-  <div class="fr-4"></div>
-  <div class="fr-5"></div>
-</div>
+  <div class="fractal"><div class="fr-1"></div><div class="fr-2"></div><div class="fr-3"></div><div class="fr-4"></div><div class="fr-5"></div></div>
   <div class="center">
     <div class="text">
       <h1><strong>Espaços Esportivos</strong> ao seu alcance!</h1>
